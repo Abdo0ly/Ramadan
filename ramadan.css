@@ -1,0 +1,44 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.ramadan-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.ramadan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ramadan-table th,
+.ramadan-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.ramadan-table th {
+    background-color: #f0f0f0;
+}
+
+.ramadan-table td {
+    min-width: 150px;
+    /* عرض ثابت للخلايا */
+    height: auto;
+    /* ارتفاع متغير */
+}
+
+
+/* لتمييز الخلايا القابلة للتحرير عند التركيز عليها */
+
+.ramadan-table td:focus {
+    background-color: #f8f8f8;
+    outline: 2px solid #007bff;
+}
